@@ -1,0 +1,61 @@
+body{
+    margin: 0px 100px;
+    padding: 0;
+}
+.grid-row div{
+    text-align: center;
+    padding: 12px 0px;
+}
+.grid-row{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 10px 10px;
+}
+.col-1{
+    background-color: rgb(12, 250, 0);
+    grid-column: auto / span 1 
+}
+.col-2{
+    background-color: rgb(241, 60, 40);
+     grid-column: auto / span 2 
+}
+.col-3{
+    background-color: rgb(241, 226, 14);
+    grid-column: auto / span 3;
+}
+.col-4{
+    background-color: rgb(14, 18, 241);
+    grid-column: auto / span 4;
+}
+.col-5{
+    background-color: rgb(255, 0, 0);
+    grid-column: auto / span 5;
+}
+.col-6{
+    background-color: rgb(14, 241, 241);
+    grid-column: auto / span 6;
+}
+.col-7{
+    background-color: rgb(201, 196, 223);
+    grid-column: auto / span 7;
+}
+.col-8{
+    background-color: rgb(201, 196, 223);
+    grid-column: auto / span 8;
+}
+.col-9{
+    background-color: rgb(241, 226, 14);
+    grid-column: auto / span 9;
+}
+.col-10{
+    background-color: rgb(142, 0, 244);
+    grid-column: auto / span 10;
+}
+.col-11{
+    background-color: rgb(244, 0, 146);
+    grid-column: auto / span 11;
+}
+.col-12{
+    background-color: rgb(217, 116, 22);
+    grid-column: auto / span 12;
+}
